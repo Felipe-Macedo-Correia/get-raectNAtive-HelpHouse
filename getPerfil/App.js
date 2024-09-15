@@ -24,7 +24,7 @@ export default function App(){
       {data.idContratante ? (
         <Text>id: {data.idContratante}, nome: {data.nomeContratante}, CPF: {data.cpfContratante}</Text>
       ) : (
-        <Text>Carregando...</Text>
+        <Text>Carregando.</Text>
       )}
     </View>
   );
